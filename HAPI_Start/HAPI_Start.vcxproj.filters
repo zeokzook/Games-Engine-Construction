@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{ced285c1-10ac-4c84-9e91-42cc69d2f6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{21fb4232-c952-4f37-8c5d-6c2948648b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{9773b0a8-4009-4274-8d97-657d41c8ade3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Entity">
+      <UniqueIdentifier>{8c4c876e-d3de-4674-8b2b-889d35e50f2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBackground.cpp">
+      <Filter>World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBullet.cpp">
+      <Filter>World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityEnemy.cpp">
+      <Filter>World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer.cpp">
+      <Filter>World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityExplosions.cpp">
+      <Filter>World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBackground.h">
+      <Filter>World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBullet.h">
+      <Filter>World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityEnemy.h">
+      <Filter>World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayer.h">
+      <Filter>World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityExplosions.h">
+      <Filter>World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
